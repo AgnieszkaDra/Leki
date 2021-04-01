@@ -1,0 +1,91 @@
+#page {
+  display: grid;
+  width: 960px;
+  height: 600px;
+  grid-template-areas: "head head  head head head head nav nav"
+                       "main main  main main main main nav nav"
+                       "main main  main main main main nav nav"
+                       "main main  main main main main nav nav"
+                       "main main  main main main main nav nav"
+                       "main main  main main main main nav nav"
+                       "foot foot foot foot foot foot nav nav"
+                       "foot foot foot foot foot foot nav nav"
+                       ;
+
+  grid-template-rows: repeat (8, 1fr);
+  grid-template-columns: repeat (8, 1fr);
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+#page > nav {
+  grid-area: nav;
+  
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+
+.magne{
+  width: 700px;
+  height: 50px;
+  background-color:#602846;
+  color: black;
+}
+
+
+#nav{
+  width: 160px;
+  height: 600px;
+}
+
+#a {
+  background-color:#B45468;
+  width: 80px;
+  height: 400px;
+  float: left;
+}
+
+
+
+#b {
+  background-color: #602846;
+  width: 80px;
+  height: 400px;
+  float: left;
+}
+
+#c {
+  background-color:white;
+  width: 160px;
+  height: 40px;
+  clear: both;
+  color: #B45468; 
+  text-align: center;
+  padding-top: 5px;
+}
+
+#d {
+  background-color: #B45468;
+  width: 80px;
+  height: 160px;
+  float:left;
+}
+
+#e {
+  background-color: #602846;
+  width: 80px;
+  height: 160px;
+  float:left;
+}
+
