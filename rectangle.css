@@ -1,0 +1,9 @@
+
+#rectangle
+{
+clip:rect(0, 200px, 100px, 0);
+position:absolute;
+background-color:purple;
+
+                
+}
